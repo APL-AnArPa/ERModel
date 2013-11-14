@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"  standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg onload="if (typeof(gnuplot_svg)!='undefined') gnuplot_svg.Init(evt)" 
+ viewBox="0 0 800 600"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+
+<title>simple_1</title>
+<desc>Produced by GNUPLOT 4.6 patchlevel 3 </desc>
+
+<script type="text/javascript" xlink:href="/usr/local/share/gnuplot/4.6/js/gnuplot_svg.js"/>
+
+<!-- Tie mousing to entire bounding box of the plot -->
+<rect x="0" y="0" width="800" height="600" fill="#ffffff" stroke="black" stroke-width="1"
+onclick="gnuplot_svg.toggleCoordBox(evt)"  onmousemove="gnuplot_svg.moveCoordBox(evt)"/>
+
+<!-- Also track mouse when it is on a plot element -->
+<g id="gnuplot_canvas" onclick="gnuplot_svg.toggleCoordBox(evt)" onmousemove="gnuplot_svg.moveCoordBox(evt)">
+
+<defs>
+
+	<circle id='gpDot' r='0.5' stroke-width='0.5'/>
+	<path id='gpPt0' stroke-width='0.267' stroke='currentColor' d='M-1,0 h2 M0,-1 v2'/>
+	<path id='gpPt1' stroke-width='0.267' stroke='currentColor' d='M-1,-1 L1,1 M1,-1 L-1,1'/>
+	<path id='gpPt2' stroke-width='0.267' stroke='currentColor' d='M-1,0 L1,0 M0,-1 L0,1 M-1,-1 L1,1 M-1,1 L1,-1'/>
+	<rect id='gpPt3' stroke-width='0.267' stroke='currentColor' x='-1' y='-1' width='2' height='2'/>
+	<rect id='gpPt4' stroke-width='0.267' stroke='currentColor' fill='currentColor' x='-1' y='-1' width='2' height='2'/>
+	<circle id='gpPt5' stroke-width='0.267' stroke='currentColor' cx='0' cy='0' r='1'/>
+	<use xlink:href='#gpPt5' id='gpPt6' fill='currentColor' stroke='none'/>
+	<path id='gpPt7' stroke-width='0.267' stroke='currentColor' d='M0,-1.33 L-1.33,0.67 L1.33,0.67 z'/>
+	<use xlink:href='#gpPt7' id='gpPt8' fill='currentColor' stroke='none'/>
+	<use xlink:href='#gpPt7' id='gpPt9' stroke='currentColor' transform='rotate(180)'/>
+	<use xlink:href='#gpPt9' id='gpPt10' fill='currentColor' stroke='none'/>
+	<use xlink:href='#gpPt3' id='gpPt11' stroke='currentColor' transform='rotate(45)'/>
+	<use xlink:href='#gpPt11' id='gpPt12' fill='currentColor' stroke='none'/>
+</defs>
+<g style="fill:none; color:white; stroke:black; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
+</g>
+<g style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
+	<path stroke='black'  d='M59.8,552.0 L67.3,552.0 M779.2,552.0 L771.7,552.0  h0.01'/>	<g transform="translate(52.9,555.7)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan> 0</tspan></text>
+	</g>
+	<path stroke='black'  d='M59.8,450.6 L67.3,450.6 M779.2,450.6 L771.7,450.6  h0.01'/>	<g transform="translate(52.9,454.3)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan> 0.2</tspan></text>
+	</g>
+	<path stroke='black'  d='M59.8,349.2 L67.3,349.2 M779.2,349.2 L771.7,349.2  h0.01'/>	<g transform="translate(52.9,352.9)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan> 0.4</tspan></text>
+	</g>
+	<path stroke='black'  d='M59.8,247.9 L67.3,247.9 M779.2,247.9 L771.7,247.9  h0.01'/>	<g transform="translate(52.9,251.6)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan> 0.6</tspan></text>
+	</g>
+	<path stroke='black'  d='M59.8,146.5 L67.3,146.5 M779.2,146.5 L771.7,146.5  h0.01'/>	<g transform="translate(52.9,150.2)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan> 0.8</tspan></text>
+	</g>
+	<path stroke='black'  d='M59.8,45.1 L67.3,45.1 M779.2,45.1 L771.7,45.1  h0.01'/>	<g transform="translate(52.9,48.8)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:end">
+		<text><tspan> 1</tspan></text>
+	</g>
+	<path stroke='black'  d='M59.8,552.0 L59.8,544.5 M59.8,45.1 L59.8,52.6  h0.01'/>	<g transform="translate(59.8,570.7)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:middle">
+		<text><tspan> 0</tspan></text>
+	</g>
+	<path stroke='black'  d='M131.7,552.0 L131.7,544.5 M131.7,45.1 L131.7,52.6  h0.01'/>	<g transform="translate(131.7,570.7)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:middle">
+		<text><tspan> 0.02</tspan></text>
+	</g>
+	<path stroke='black'  d='M203.7,552.0 L203.7,544.5 M203.7,45.1 L203.7,52.6  h0.01'/>	<g transform="translate(203.7,570.7)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:middle">
+		<text><tspan> 0.04</tspan></text>
+	</g>
+	<path stroke='black'  d='M275.6,552.0 L275.6,544.5 M275.6,45.1 L275.6,52.6  h0.01'/>	<g transform="translate(275.6,570.7)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:middle">
+		<text><tspan> 0.06</tspan></text>
+	</g>
+	<path stroke='black'  d='M347.6,552.0 L347.6,544.5 M347.6,45.1 L347.6,52.6  h0.01'/>	<g transform="translate(347.6,570.7)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:middle">
+		<text><tspan> 0.08</tspan></text>
+	</g>
+	<path stroke='black'  d='M419.5,552.0 L419.5,544.5 M419.5,45.1 L419.5,52.6  h0.01'/>	<g transform="translate(419.5,570.7)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:middle">
+		<text><tspan> 0.1</tspan></text>
+	</g>
+	<path stroke='black'  d='M491.4,552.0 L491.4,544.5 M491.4,45.1 L491.4,52.6  h0.01'/>	<g transform="translate(491.4,570.7)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:middle">
+		<text><tspan> 0.12</tspan></text>
+	</g>
+	<path stroke='black'  d='M563.4,552.0 L563.4,544.5 M563.4,45.1 L563.4,52.6  h0.01'/>	<g transform="translate(563.4,570.7)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:middle">
+		<text><tspan> 0.14</tspan></text>
+	</g>
+	<path stroke='black'  d='M635.3,552.0 L635.3,544.5 M635.3,45.1 L635.3,52.6  h0.01'/>	<g transform="translate(635.3,570.7)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:middle">
+		<text><tspan> 0.16</tspan></text>
+	</g>
+	<path stroke='black'  d='M707.3,552.0 L707.3,544.5 M707.3,45.1 L707.3,52.6  h0.01'/>	<g transform="translate(707.3,570.7)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:middle">
+		<text><tspan> 0.18</tspan></text>
+	</g>
+	<path stroke='black'  d='M779.2,552.0 L779.2,544.5 M779.2,45.1 L779.2,52.6  h0.01'/>	<g transform="translate(779.2,570.7)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:middle">
+		<text><tspan> 0.2</tspan></text>
+	</g>
+	<path stroke='black'  d='M59.8,45.1 L59.8,552.0 L779.2,552.0 L779.2,45.1 L59.8,45.1 Z  h0.01'/>	<g transform="translate(14.6,298.6) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:middle">
+		<text><tspan>Probability of Connectedness</tspan></text>
+	</g>
+	<g transform="translate(419.5,593.2)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:middle">
+		<text><tspan>C values</tspan></text>
+	</g>
+	<g transform="translate(419.5,26.3)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:middle">
+		<text><tspan>Plot for p(n)=c(log n)</tspan><tspan font-size="8.0pt" dy="-5.00pt">2</tspan><tspan font-size="10.0pt" dy="5.00pt">/n</tspan></text>
+	</g>
+</g>
+	<g id="simple_1_plot_1" ><title>simple_1_plot_1</title>
+<g style="fill:none; color:red; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
+	<path stroke='red'  d='M95.8,552.0 L164.1,552.0 L232.5,552.0 L300.8,459.2 L369.1,176.9 L437.5,69.4 L505.8,49.7 L574.2,46.1 
+		L642.5,45.6 L710.9,45.1 L779.2,45.1  h0.01'/></g>
+	</g>
+<g style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
+	<path stroke='black'  d='M59.8,45.1 L59.8,552.0 L779.2,552.0 L779.2,45.1 L59.8,45.1 Z  h0.01'/></g>
+
+<script type="text/javascript"><![CDATA[
+// plot boundaries and axis scaling information for mousing 
+gnuplot_svg.plot_term_xmax = 800;
+gnuplot_svg.plot_term_ymax = 600;
+gnuplot_svg.plot_xmin = 59.8;
+gnuplot_svg.plot_xmax = 779.2;
+gnuplot_svg.plot_ybot = 552.0;
+gnuplot_svg.plot_ytop = 45.1;
+gnuplot_svg.plot_width = 719.4;
+gnuplot_svg.plot_height = 506.9;
+gnuplot_svg.plot_axis_xmin = 0;
+gnuplot_svg.plot_axis_xmax = 0.2;
+gnuplot_svg.plot_axis_ymin = 0;
+gnuplot_svg.plot_axis_ymax = 1;
+gnuplot_svg.polar_mode = false;
+gnuplot_svg.plot_axis_x2min = "none"
+gnuplot_svg.plot_axis_y2min = "none"
+gnuplot_svg.plot_logaxis_x = 0;
+gnuplot_svg.plot_logaxis_y = 0;
+gnuplot_svg.plot_timeaxis_x = "";
+]]>
+</script>
+</g>
+
+  <text id="coord_text" text-anchor="start" pointer-events="none"
+  font-size="12" font-family="Arial"
+  visibility="hidden"> </text>
+</svg>
+

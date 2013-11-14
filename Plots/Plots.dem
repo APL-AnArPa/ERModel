@@ -1,0 +1,47 @@
+set autoscale
+set terminal svg size 800,600 dynamic enhanced fname 'arial' fsize 10 mousing name "simple_1" butt solid 
+set output 'Connectedness1.svg'
+set title "Plot for p(n)=c(log n)/n"
+set xlabel "C values"
+set ylabel "Probability of Connectedness"
+plot "../class/Connectedness1.txt" using 1:2 with lines title ""
+
+set autoscale
+set terminal svg size 800,600 dynamic enhanced fname 'arial' fsize 10 mousing name "simple_1" butt solid 
+set output 'Connectedness2.svg'
+set title "Plot for p(n)=c(log n)/n^2"
+set xlabel "C values"
+set ylabel "Probability of Connectedness"
+plot "../class/Connectedness2.txt" using 1:2 with lines title ""
+
+set autoscale
+set terminal svg size 800,600 dynamic enhanced fname 'arial' fsize 10 mousing name "simple_1" butt solid 
+set output 'Connectedness3.svg'
+set title "Plot for p(n)=c(log n)^2/n"
+set xlabel "C values"
+set ylabel "Probability of Connectedness"
+plot "../class/Connectedness3.txt" using 1:2 with lines title ""
+
+set autoscale
+set terminal svg size 800,600 dynamic enhanced fname 'arial' fsize 10 mousing name "simple_1" butt solid 
+set output 'Cyclicity1.svg'
+set title "Plot for p(n)=c/n"
+set xlabel "C values"
+set ylabel "Probability of Cyclicity"
+plot "../class/Cyclicity1.txt" using 1:2 with lines title ""
+
+set autoscale
+set terminal svg size 800,600 dynamic enhanced fname 'arial' fsize 10 mousing name "simple_1" butt solid 
+set output 'Cyclicity2.svg'
+set title "Plot for p(n)=c/n^2"
+set xlabel "C values"
+set ylabel "Probability of Cyclicity"
+plot "../class/Cyclicity2.txt" using 1:2 with lines title ""
+
+set autoscale
+set terminal svg size 800,600 dynamic enhanced fname 'arial' fsize 10 mousing name "simple_1" butt solid 
+set output 'Cyclicity3.svg'
+set title "Plot for p(n)=c/sqrt(n)"
+set xlabel "C values"
+set ylabel "Probability of Cyclicity"
+plot "../class/Cyclicity3.txt" using 1:2 with lines title ""
